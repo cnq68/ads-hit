@@ -74,7 +74,7 @@ Dùng AskUserQuestion (tối đa 4 câu/lần, mỗi câu 2–4 option, nhiều 
    - Check trạng thái cột C: chỉ dùng khi là `On`. Nếu `Pending`/`Off`/trống thì báo user là landing đang không chạy và hỏi có muốn dùng link khác không, không tự dùng.
    - Cột D có thể chứa nhiều link dạng `[On] link` / `[Off] link`: chỉ lấy link `[On]`, bỏ link `[Off]`. Nhiều link `[On]` thì hỏi user chọn. Link không có nhãn thì coi theo trạng thái cột C.
 
-**Tầng ad (cho từng video):** Type (video là mặc định), Nguồn đăng, Content Pillar, PIC (gợi ý theo Người tạo của Output nếu có trong option). Chỉ hỏi trường chưa suy ra được ở Bước 1–2.
+**Tầng ad (cho từng video):** Type (video là mặc định), Nguồn đăng, Content Pillar, PIC (mặc định `Quang`, không cần hỏi; chỉ đổi khi user yêu cầu). Chỉ hỏi trường chưa suy ra được ở Bước 1–2.
 
 ## Bước 4: Ghép tên + bảng duyệt
 
